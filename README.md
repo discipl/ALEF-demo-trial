@@ -22,3 +22,9 @@ The functions we recognize are:
 - Builder
 - Architect
 - Supplier
+
+## Progress
+
+Initial ALEF project created
+
+![ALEF Project](images/InitialProject.png)

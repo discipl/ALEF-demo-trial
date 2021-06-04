@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/solutions/InvoicePayment/InvoicePayment.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/InvoicePaymentTest/InvoicePaymentTest.msd" folder="" />
     </projectModules>
   </component>
 </project>

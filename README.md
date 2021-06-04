@@ -8,7 +8,7 @@ In the context of agile implementation of the law, the Tax and Customs Administr
 
 This tool is called ALEF (Agile Law Execution Factory) and is based on Jetbrains MPS. In ALEF, specifications are drawn up in collaboration with the domain experts. These specifications consist of rules, data definitions and test cases. This is done as much as possible by the domain experts themselves. The rules are drawn up in the RegelSpraak language. This is a controlled Dutch language that is easy to read for lawyers as well as for computer systems.
 
-## Demo Use Case
+## Use Case
 
 The challenge is to realize a complete ALEF service for this very simple invoice payment use case:
 

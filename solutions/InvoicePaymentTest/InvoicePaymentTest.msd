@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="InvoicePayment" uuid="25e61eac-5086-4145-aa40-143b8b3468c7" moduleVersion="0" compileInMPS="true">
+<solution name="InvoicePaymentTest" uuid="d455434d-4266-4fee-8b82-534ccce68413" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -11,6 +11,9 @@
     </facet>
   </facets>
   <sourcePath />
+  <dependencies>
+    <dependency reexport="false">25e61eac-5086-4145-aa40-143b8b3468c7(InvoicePayment)</dependency>
+  </dependencies>
   <languageVersions>
     <language slang="l:7b05b09e-3ac1-4a27-83e2-e4e1a5f17cf3:beslistabelspraak" version="0" />
     <language slang="l:65239ca4-9057-41f8-999d-97fa1a60b298:besturingspraak" version="0" />
@@ -34,6 +37,7 @@
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
     <module reference="25e61eac-5086-4145-aa40-143b8b3468c7(InvoicePayment)" version="0" />
+    <module reference="d455434d-4266-4fee-8b82-534ccce68413(InvoicePaymentTest)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" version="0" />

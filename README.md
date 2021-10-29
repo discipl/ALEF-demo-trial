@@ -25,6 +25,10 @@ The functions we recognize are:
 
 ## Progress
 
-Initial ALEF project created
+Initial ALEF project created and first start made by ![Diederik Dulfer](https://github.com/diederikd), including a test case
 
-![ALEF Project](images/InitialProject.png)
+### Gegevensmodel
+![Gegevensmodel](images/Gegevensmodel.png)
+
+### Test case
+![Test case](images/testtrial.png)

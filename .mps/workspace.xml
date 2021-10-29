@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb358471-9435-4ce2-8d61-b55b16a95d99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/InitialProject.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/InvoicePayment/models/Besturing.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/InvoicePayment/models/Gegevens.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/InvoicePayment/models/Regels.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/InvoicePayment/models/Services.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/InvoicePaymentTest/InvoicePaymentTest.msd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/InvoicePayment/InvoicePayment.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/InvoicePayment/InvoicePayment.msd" afterDir="false" />
-    </list>
+    <list default="true" id="cb358471-9435-4ce2-8d61-b55b16a95d99" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +24,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="f6c8d72b-8287-4357-855a-1ed1d13076ae/r:5d18a362-2595-4f4a-9f32-8a6bf183ed60(TempModulef6c8d72b-8287-4357-855a-1ed1d13076ae/ConsoleModel_105509913233475)">
+            <model ref="e42e39a9-11a1-44f6-aed1-76ade16c8e6d/r:a2520ec1-9017-45db-8f72-61d300d0fa77(TempModulee42e39a9-11a1-44f6-aed1-76ade16c8e6d/ConsoleModel_28675406959470)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -55,11 +44,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="5DTDSisPYow">
-                <node concept="3balQm" id="5DTDSisPYox" role="aymYE" />
-                <node concept="2Clz$F" id="5DTDSisPYoy" role="aymYO" />
-                <node concept="2_V_lH" id="5DTDSisPYoz" role="1PhJh3">
-                  <ref role="2_V_lI" node="5DTDSisPYoy" resolve="CommandHolder" />
+              <node concept="aymSD" id="7XM3uM0xS5w">
+                <node concept="3balQm" id="7XM3uM0xS5x" role="aymYE" />
+                <node concept="2Clz$F" id="7XM3uM0xS5y" role="aymYO" />
+                <node concept="2_V_lH" id="7XM3uM0xS5z" role="1PhJh3">
+                  <ref role="2_V_lI" node="7XM3uM0xS5y" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -327,6 +316,74 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="25e61eac-5086-4145-aa40-143b8b3468c7" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:0acc0f7e-b988-4353-aa76-f0bacabc32f2(Besturing) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ALEF-demo-trial/solutions/InvoicePayment/models/Besturing.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="25e61eac-5086-4145-aa40-143b8b3468c7" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:854f4191-f522-42a3-b382-edef7449ef57(Gegevens) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ALEF-demo-trial/solutions/InvoicePayment/models/Gegevens.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d455434d-4266-4fee-8b82-534ccce68413" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c154ae24-313e-40a0-9f59-682c753bfd6c(regeltests) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ALEF-demo-trial/solutions/InvoicePaymentTest/models/regeltests.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d455434d-4266-4fee-8b82-534ccce68413" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="25e61eac-5086-4145-aa40-143b8b3468c7" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Modules Pool" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -341,38 +398,16 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:0acc0f7e-b988-4353-aa76-f0bacabc32f2(Besturing) in IdeaFile[path: /home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment/models/Besturing.mps]" />
+              <option name="myItemId" value="r:47937443-25b0-471f-8204-e2433dba97f0(Regels) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/ALEF-demo-trial/solutions/InvoicePayment/models/Regels.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="25e61eac-5086-4145-aa40-143b8b3468c7" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <SELECTED>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
       </pane>
+      <pane id="FileSystem" />
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
       </pane>
@@ -397,6 +432,14 @@
       <option name="presentableId" value="Default" />
       <updated>1622824064482</updated>
     </task>
+    <task id="LOCAL-00001" summary="Een en ander gevuld">
+      <created>1635507859876</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635507859876</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -406,14 +449,26 @@
       <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
     </default_view_options>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Een en ander gevuld" />
+    <option name="LAST_COMMIT_MESSAGE" value="Een en ander gevuld" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1940" y="952" width="711" height="450" key="#MPSPropertiesConfigurable" timestamp="1622825978628">
-      <screen x="0" y="0" width="3840" height="2160" />
+    <state x="932" y="472" key="#MPSPropertiesConfigurable" timestamp="1635507660910">
+      <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="1940" y="952" width="711" height="450" key="#MPSPropertiesConfigurable/1125.2160.1503.1002/0.0.3840.2160@0.0.3840.2160" timestamp="1622825978628" />
-    <state x="2118" y="996" width="350" height="320" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1622825976792">
-      <screen x="0" y="0" width="3840" height="2160" />
+    <state x="932" y="472" key="#MPSPropertiesConfigurable/2560.25.1920.1055/0.25.2560.1330@0.25.2560.1330" timestamp="1635507660910" />
+    <state x="864" y="257" key="CommitChangelistDialog2" timestamp="1635507859653">
+      <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="2118" y="996" width="350" height="320" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/1125.2160.1503.1002/0.0.3840.2160@0.0.3840.2160" timestamp="1622825976792" />
+    <state x="864" y="257" key="CommitChangelistDialog2/2560.25.1920.1055/0.25.2560.1330@0.25.2560.1330" timestamp="1635507859653" />
+    <state x="880" y="414" key="Vcs.Push.Dialog.v2" timestamp="1635508074925">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="880" y="414" key="Vcs.Push.Dialog.v2/2560.25.1920.1055/0.25.2560.1330@0.25.2560.1330" timestamp="1635508074925" />
+    <state x="1058" y="515" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1635507658623">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="1058" y="515" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/2560.25.1920.1055/0.25.2560.1330@0.25.2560.1330" timestamp="1635507658623" />
   </component>
 </project>

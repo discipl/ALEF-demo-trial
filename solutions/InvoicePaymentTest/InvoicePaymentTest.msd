@@ -11,6 +11,9 @@
     </facet>
   </facets>
   <sourcePath />
+  <dependencies>
+    <dependency reexport="false">25e61eac-5086-4145-aa40-143b8b3468c7(InvoicePayment)</dependency>
+  </dependencies>
   <languageVersions />
   <dependencyVersions>
     <module reference="d455434d-4266-4fee-8b82-534ccce68413(InvoicePaymentTest)" version="0" />

@@ -27,7 +27,7 @@ The functions we recognize are:
 
 ## Progress
 
-Initial ALEF project created and first start made by ![Diederik Dulfer](https://github.com/diederikd), including a test case
+Oct 29th 2021: Initial ALEF project created and first start made by ![Diederik Dulfer](https://github.com/diederikd), including a test case
 
 ### Gegevensmodel
 ![Gegevensmodel](images/Gegevensmodel.png)

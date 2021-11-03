@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb358471-9435-4ce2-8d61-b55b16a95d99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/solutions/InvoicePaymentTest/InvoicePaymentTest.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/InvoicePaymentTest/InvoicePaymentTest.msd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/InvoicePayment/models/Gegevens.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/InvoicePayment/models/Gegevens.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="7fe1ce87-f74a-4435-b4ba-1846b0503569/r:4f5dea2e-9d1e-492b-ae7c-741f1c99b260(TempModule7fe1ce87-f74a-4435-b4ba-1846b0503569/ConsoleModel_342169410266531)">
+            <model ref="4cb6493e-3635-4bda-9596-9b86683032bc/r:085100a1-9d0c-493a-8a4e-3e6508eb2605(TempModule4cb6493e-3635-4bda-9596-9b86683032bc/ConsoleModel_153447807092362)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -46,11 +47,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="2KEQzMaAMQj">
-                <node concept="3balQm" id="2KEQzMaAMQk" role="aymYE" />
-                <node concept="2Clz$F" id="2KEQzMaAMQl" role="aymYO" />
-                <node concept="2_V_lH" id="2KEQzMaAMQm" role="1PhJh3">
-                  <ref role="2_V_lI" node="2KEQzMaAMQl" resolve="CommandHolder" />
+              <node concept="aymSD" id="3GzEdbRNBPp">
+                <node concept="3balQm" id="3GzEdbRNBPq" role="aymYE" />
+                <node concept="2Clz$F" id="3GzEdbRNBPr" role="aymYO" />
+                <node concept="2_V_lH" id="3GzEdbRNBPs" role="1PhJh3">
+                  <ref role="2_V_lI" node="3GzEdbRNBPr" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -354,33 +355,25 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="25e61eac-5086-4145-aa40-143b8b3468c7" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:47937443-25b0-471f-8204-e2433dba97f0(Regels) in IdeaFile[path: /home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment/models/Regels.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="d455434d-4266-4fee-8b82-534ccce68413" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:c154ae24-313e-40a0-9f59-682c753bfd6c(regeltests) in IdeaFile[path: /home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePaymentTest/models/regeltests.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d455434d-4266-4fee-8b82-534ccce68413" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,6 +423,28 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d455434d-4266-4fee-8b82-534ccce68413" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
@@ -440,11 +455,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:854f4191-f522-42a3-b382-edef7449ef57(Gegevens) in IdeaFile[path: /home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment/models/Gegevens.mps]" />
+              <option name="myItemId" value="r:47937443-25b0-471f-8204-e2433dba97f0(Regels) in IdeaFile[path: /home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment/models/Regels.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="9183417899581669785" />
+              <option name="myItemId" value="9183417899581669797" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>

@@ -10,7 +10,6 @@
   <registry>
     <language id="471364db-8078-4933-b2ef-88232bfa34fc" name="gegevensspraak">
       <concept id="653687101152476317" name="gegevensspraak.structure.EnumeratieWaarde" flags="ng" index="2boe1D" />
-      <concept id="653687101152590770" name="gegevensspraak.structure.Kenmerk" flags="ng" index="2bpyt6" />
       <concept id="653687101152179938" name="gegevensspraak.structure.ObjectModel" flags="ng" index="2bv6Cm">
         <child id="653687101152179939" name="elem" index="2bv6Cn" unordered="true" />
       </concept>
@@ -57,8 +56,9 @@
     <property role="TrG5h" value="gegevenmodel" />
     <node concept="2bvS6$" id="7XM3uM0xS6s" role="2bv6Cn">
       <property role="TrG5h" value="Persoon" />
-      <node concept="2bpyt6" id="7XM3uM0xVd6" role="2bv01j">
-        <property role="TrG5h" value="supplier" />
+      <node concept="2bv6ZS" id="3GzEdbRNBU7" role="2bv01j">
+        <property role="16Ztxt" value="false" />
+        <property role="TrG5h" value="functie" />
       </node>
     </node>
     <node concept="2bvS6$" id="7XM3uM0xVdE" role="2bv6Cn">

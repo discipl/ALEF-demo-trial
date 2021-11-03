@@ -15,7 +15,9 @@ The challenge is to realize a complete ALEF service for this very simple invoice
 A person submits an invoice for payment. The invoice must not exceed €200 and the person's position must be 'Supplier'. The result of the payment can be:
 1. Reject
 2. Pay in full
-3. Pay in 3 equal parts over a 3 month period (optional)
+3. Pay in 3 equal parts over a 3 month period
+
+If the amount is less than €100, full payout is possible. For the amounts between €100 and €200 we use the equal division in 3 installments. Optionally, it is an idea to round the payment in installments for the first two installments to whole euros.
 
 The functions we recognize are:
 - Owner
@@ -25,7 +27,7 @@ The functions we recognize are:
 
 ## Progress
 
-Initial ALEF project created and first start made by ![Diederik Dulfer](https://github.com/diederikd), including a test case
+Oct 29th 2021: Initial ALEF project created and first start made by ![Diederik Dulfer](https://github.com/diederikd), including a test case
 
 ### Gegevensmodel
 ![Gegevensmodel](images/Gegevensmodel.png)

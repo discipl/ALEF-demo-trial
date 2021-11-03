@@ -1,0 +1,66 @@
+{
+  "name": "InvoicePayment",
+  "projectnaam": "adt",
+  "componentnaam": "invoice",
+  "genDir": "invoicepayment$service",
+  "objectModelName": "Services.invoicepayment____ObjectModel",
+  "propertiesFileName": "invoicepayment.properties",
+  "serviceAcronym": "rsinvoicepayment",
+  "namespace": "http://www.belastingdienst.nl/InvoicepaymentBlazeBOM",
+  "xmlRekenmomentVeld": "belastingjaar",
+  "xmlBerichtType": "Message",
+  "xmlBerichtInType": "Request",
+  "xmlBerichtUitType": "Response",
+  "entryPoint": "berekenInvoicepayment",
+  "testEntryPoint": "testService__invoicepayment",
+  "xsdFileName": "rsinvoicepayment/invoicepayment.xsd",
+  "blazeName": "invoicepayment",
+  "coreModels": [
+    {
+      "model": "Besturing",
+      "module": "InvoicePayment",
+      "moduleDir": "/home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment",
+      "modelGenDir": "/home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment/source_gen/Besturing"
+    },
+    {
+      "model": "Gegevens",
+      "module": "InvoicePayment",
+      "moduleDir": "/home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment",
+      "modelGenDir": "/home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment/source_gen/Gegevens"
+    },
+    {
+      "model": "Regels",
+      "module": "InvoicePayment",
+      "moduleDir": "/home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment",
+      "modelGenDir": "/home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment/source_gen/Regels"
+    },
+    {
+      "model": "Services",
+      "module": "InvoicePayment",
+      "moduleDir": "/home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment",
+      "modelGenDir": "/home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment/source_gen/Services"
+    }
+  ],
+  "testModels": [],
+  "objectModel": {
+    "domein": {
+      "naam": "Rol",
+      "values": {
+        "owner": "Owner",
+        "builder": "Builder",
+        "supplier": "Supplier",
+        "architect": "Architect"
+      },
+      "default": "onbekend"
+    },
+    "domein": {
+      "naam": "Actie",
+      "values": {
+        "niet_spUit_spTe_spBetalen_spFactuur": "NietUitTeBetalenFactuur",
+        "in_spTermijnen_spBetalen": "InTermijnenBetalen",
+        "volledig_spBetalen": "VolledigBetalen"
+      },
+      "default": "onbekend"
+    }
+  }
+}

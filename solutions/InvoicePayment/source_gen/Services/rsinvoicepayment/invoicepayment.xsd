@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<xsd:schema version="" targetNamespace="http://www.belastingdienst.nl/InvoicepaymentBlazeBOM" xmlns:invoicepayment="http://www.belastingdienst.nl/InvoicepaymentBlazeBOM" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="rsinvoicepaymentMsg" type="invoicepayment:Message" />
+  <xsd:complexType name="Message">
+    <xsd:sequence>
+      <xsd:element name="request" type="invoicepayment:Request" />
+      <xsd:element name="response" type="invoicepayment:Response" minOccurs="0" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Request">
+    <xsd:sequence>
+      <xsd:element name="berichtIn" type="invoicepayment:Invoicepayment_spInvoer" minOccurs="0" />
+    </xsd:sequence>
+    <xsd:attribute name="belastingjaar" type="invoicepayment:belastingjaarType" use="required" />
+    <xsd:attribute name="berichtId" type="xsd:string" />
+  </xsd:complexType>
+  <xsd:complexType name="Response">
+    <xsd:sequence>
+      <xsd:element name="serviceResultaat" type="invoicepayment:ServiceResultaat" />
+      <xsd:element name="berichtUit" type="invoicepayment:Invoicepayment_spUitvoer" minOccurs="0" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ServiceResultaat">
+    <xsd:sequence>
+      <xsd:element name="resultaatcode" type="xsd:string" />
+      <xsd:element name="resultaatmelding" type="xsd:string" />
+      <xsd:element name="rulesversie" type="xsd:string" />
+      <xsd:element name="serviceversie" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Invoicepayment_spInvoer">
+    <xsd:all>
+      <xsd:element name="functie" type="invoicepayment:Rol" minOccurs="0" />
+      <xsd:element name="facturen" minOccurs="0">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="factuur" type="invoicepayment:Factuur" minOccurs="0" maxOccurs="unbounded" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:all>
+  </xsd:complexType>
+  <xsd:complexType name="Invoicepayment_spUitvoer">
+    <xsd:sequence>
+      <xsd:element name="Betalingen" minOccurs="0">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Betaling" type="invoicepayment:Actiebetaling" minOccurs="0" maxOccurs="unbounded" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Factuur">
+    <xsd:all>
+      <xsd:element name="factuurbedrag" type="xsd:decimal" minOccurs="0" />
+    </xsd:all>
+  </xsd:complexType>
+  <xsd:complexType name="Actiebetaling">
+    <xsd:all>
+      <xsd:element name="wijzeVanUitbetalen" type="invoicepayment:Actie" minOccurs="0" />
+    </xsd:all>
+  </xsd:complexType>
+  <xsd:simpleType name="Rol">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Owner" />
+      <xsd:enumeration value="Builder" />
+      <xsd:enumeration value="Supplier" />
+      <xsd:enumeration value="Architect" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="Actie">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="NietUitTeBetalenFactuur" />
+      <xsd:enumeration value="InTermijnenBetalen" />
+      <xsd:enumeration value="VolledigBetalen" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="belastingjaarType">
+    <xsd:restriction base="xsd:short">
+      <xsd:totalDigits value="4" />
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:schema>

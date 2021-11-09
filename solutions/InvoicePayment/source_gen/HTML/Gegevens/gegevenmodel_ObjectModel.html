@@ -1,0 +1,217 @@
+<html>
+  <head>
+    <title>Belastingdienst</title>
+    <div class="hidden chrome">Deze website werkt beter in Internet Explorer</div>
+    <div class="branch">GIT BRANCH:
+        develop</div>
+    
+    <link rel="stylesheet" type="text/css" href="../resources/css/main.css"></link>
+    <link rel="stylesheet" type="text/css" href="../resources/css/objecten.css"></link>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></link>
+  </head>
+  <body>
+    <span class="alefUrl" onClick="new Image().src='http://127.0.0.1:63320/node?ref=r%3A854f4191-f522-42a3-b382-edef7449ef57%28Gegevens%29%2F9183417899581669785'">ALEF</span>
+    <div class="title">Objectmodel
+        gegevenmodel</div>
+    <div class="elem">
+      <div>
+        <b>Objecttype</b>
+        de
+        <span id="9183417899581669788" class="objectype">Persoon</span>
+        <table class="objectmodeltable">
+          <tr>
+            <td>de</td>
+            <td>
+              <span id="2513092667722210149" class="attribuut">functie</span>
+            </td>
+            <td>
+              <span class="type">
+                <a href="gegevenmodel_ObjectModel.html#2513092667722210232">Rol</a>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>de</td>
+            <td>
+              <span id="2513092667722210452" class="rol">Owner
+                   (mv:
+                  Ownerren
+                  )</span>
+            </td>
+            <td>
+              <b>rol</b>
+            </td>
+          </tr>
+          <tr>
+            <td>de</td>
+            <td>
+              <span id="2513092667722210689" class="rol">Builder
+                   (mv:
+                  Builders
+                  )</span>
+            </td>
+            <td>
+              <b>rol</b>
+            </td>
+          </tr>
+          <tr>
+            <td>de</td>
+            <td>
+              <span id="2513092667722210774" class="rol">Supplier
+                   (mv:
+                  Suppliers
+                  )</span>
+            </td>
+            <td>
+              <b>rol</b>
+            </td>
+          </tr>
+          <tr>
+            <td>de</td>
+            <td>
+              <span id="2513092667722210901" class="rol">Architect
+                   (mv:
+                  Architecten
+                  )</span>
+            </td>
+            <td>
+              <b>rol</b>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="elem">
+      <div>
+        <b>Objecttype</b>
+        de
+        <span id="9183417899581682538" class="objectype">Invoice</span>
+        <table class="objectmodeltable">
+          <tr>
+            <td>het</td>
+            <td>
+              <span id="9183417899581682555" class="attribuut">factuurbedrag</span>
+            </td>
+            <td>
+              <span class="type">
+                <a href="gegevenmodel_ObjectModel.html#9183417899581682617">Bedrag</a>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>de</td>
+            <td>
+              <span id="9183417899581682928" class="attribuut">wijze van uitbetalen</span>
+            </td>
+            <td>
+              <span class="type">
+                <a href="gegevenmodel_ObjectModel.html#9183417899581682753">Actie</a>
+              </span>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="elem">
+      <div id="9183417899581682617">
+        <b>Domein</b>
+        <span class="domein"> Bedrag</span>
+        is van het type
+        
+        <span class="type">
+          <b>Numeriek</b>
+          (
+          
+          getal met
+          2 decimalen
+          met eenheid EUR
+          )
+        </span>
+      </div>
+    </div>
+    <div class="elem">
+      <div id="2513092667722210232">
+        <b>Domein</b>
+        <span class="domein"> Rol</span>
+        is van het type
+        
+        <span class="type">
+          <b>Enumeratie</b>
+          <table>
+            <tr>
+              <td>
+                <span id="2513092667722210269" class="enumwaarde">Owner</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span id="2513092667722210286" class="enumwaarde">Builder</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span id="2513092667722210322" class="enumwaarde">Supplier</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span id="2513092667722210353" class="enumwaarde">Architect</span>
+              </td>
+            </tr>
+          </table>
+        </span>
+      </div>
+    </div>
+    <div class="elem">
+      <div id="9183417899581682753">
+        <b>Domein</b>
+        <span class="domein"> Actie</span>
+        is van het type
+        
+        <span class="type">
+          <b>Enumeratie</b>
+          <table>
+            <tr>
+              <td>
+                <span id="9183417899581682784" class="enumwaarde">Niet uit te betalen factuur</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span id="9183417899581682819" class="enumwaarde">In termijnen betalen</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span id="9183417899581682867" class="enumwaarde">Volledig betalen</span>
+              </td>
+            </tr>
+          </table>
+        </span>
+      </div>
+    </div>
+    <div class="elem">
+      <div>
+        <font color="#C0C0C0">//
+            met feittype leg ik hier de combinatie van beide objecttypes Persoon en Invoice</font>
+      </div>
+    </div>
+    <div class="elem">
+      <div>
+        <b>Binair feittype</b>
+        <span class="feittype">persoon factureert factuur</span>
+        </br>
+        <span>
+          &eacute;&eacute;n
+          <a href="gegevenmodel_ObjectModel.html#9183417899581669788" class="rol">Persoon</a>
+          stuur in
+        </span>
+        <span>
+          meerdere
+          <a href="gegevenmodel_ObjectModel.html#9183417899581682538" class="rol">Invoices</a>
+          
+        </span>
+      </div>
+    </div>
+  </body>
+</html>

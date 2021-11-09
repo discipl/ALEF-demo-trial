@@ -1,0 +1,10 @@
+<?xml version = "1.0"?>
+<ruleflow name="ruleflow_2513092667722211049">
+  <!--gegenereerd o.b.v. de Regelgroep genaamd 'KenmerkenPersoon', in model 'Regels' in module 'InvoicePayment': http://127.0.0.1:63320/node?ref=r%3A47937443-25b0-471f-8204-e2433dba97f0%28Regels%29%2F2513092667722211049 --> 
+  <flow>
+    <task name="Owner altijd" implementation="ruleset_2513092667722211051" type="ruleset" datatype="void" />
+    <task name="Builder altijd" implementation="ruleset_2513092667722211157" type="ruleset" datatype="void" />
+    <task name="Architect altijd" implementation="ruleset_2513092667722211347" type="ruleset" datatype="void" />
+    <task name="Supplier altijd" implementation="ruleset_2513092667722211780" type="ruleset" datatype="void" />
+  </flow>
+</ruleflow>

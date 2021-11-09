@@ -19,10 +19,12 @@
     </language>
     <language id="65239ca4-9057-41f8-999d-97fa1a60b298" name="besturingspraak">
       <concept id="9154144551726427366" name="besturingspraak.structure.FlowVersie" flags="ng" index="1Fci4u">
+        <property id="8967493964168670222" name="declaratief" index="3vMlKL" />
         <child id="2800963173599034005" name="geldig" index="2DzjYZ" />
         <child id="9154144551726427489" name="body" index="1Fci2p" />
       </concept>
       <concept id="8556987547900021295" name="besturingspraak.structure.Flow" flags="ng" index="3MLgNT">
+        <reference id="8556987547900099829" name="onderwerp" index="3MLzCz" />
         <child id="9154144551726427484" name="versie" index="1Fci2$" />
       </concept>
       <concept id="8556987547900055494" name="besturingspraak.structure.RuleTask" flags="ng" index="3MLC$g">
@@ -35,10 +37,15 @@
   </registry>
   <node concept="3MLgNT" id="7XM3uM0xS6A">
     <property role="TrG5h" value="Hoofdflow" />
+    <ref role="3MLzCz" to="atmy:7XM3uM0xS6s" resolve="Persoon" />
     <node concept="1Fci4u" id="7XM3uM0xS6B" role="1Fci2$">
+      <property role="3vMlKL" value="true" />
       <node concept="3MLD7v" id="7XM3uM0xS6C" role="1Fci2p">
         <node concept="3MLC$g" id="7XM3uM0xVcI" role="3MLD7s">
           <ref role="3MLC$h" to="j4rz:7XM3uM0xS6_" resolve="Regelgroep trial" />
+        </node>
+        <node concept="3MLC$g" id="2bwj7tzefXG" role="3MLD7s">
+          <ref role="3MLC$h" to="j4rz:2bwj7tze9VD" resolve="KenmerkenPersoon" />
         </node>
       </node>
       <node concept="2ljwA5" id="7XM3uM0xS6D" role="2DzjYZ" />

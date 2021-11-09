@@ -1,0 +1,9 @@
+<?xml version = "1.0"?>
+<ruleflow name="ruleflow_9183417899581669797">
+  <!--gegenereerd o.b.v. de Regelgroep genaamd 'Regelgroep trial', in model 'Regels' in module 'InvoicePayment': http://127.0.0.1:63320/node?ref=r%3A47937443-25b0-471f-8204-e2433dba97f0%28Regels%29%2F9183417899581669797 --> 
+  <flow>
+    <task name="Vijfde regel altijd" implementation="ruleset_2513092667722216302" type="ruleset" datatype="void" />
+    <task name="Zevende regel altijd" implementation="ruleset_2513092667722234136" type="ruleset" datatype="void" />
+    <task name="Zesde regel altijd" implementation="ruleset_2513092667722220997" type="ruleset" datatype="void" />
+  </flow>
+</ruleflow>

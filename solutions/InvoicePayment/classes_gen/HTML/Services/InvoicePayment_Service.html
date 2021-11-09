@@ -1,0 +1,125 @@
+<html>
+  <head>
+    <title>Belastingdienst</title>
+    <div class="hidden chrome">Deze website werkt beter in Internet Explorer</div>
+    <div class="branch">GIT BRANCH:
+        develop</div>
+    
+    <link rel="stylesheet" type="text/css" href="../resources/css/main.css"></link>
+    <link rel="stylesheet" type="text/css" href="../resources/css/services.css"></link>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></link>
+  </head>
+  <body>
+    <span class="alefUrl" onClick="new Image().src='http://127.0.0.1:63320/node?ref=r%3A59bda74b-4f40-40aa-bb97-2bc3c8589e12%28Services%29%2F2513092667722235752'">ALEF</span>
+    <div class="title">Servicedefinitie
+        InvoicePayment</div>
+    <table>
+      <tr>
+        <td colspan="4">service</td>
+        <td class="service" colspan="4">InvoicePayment</td>
+      </tr>
+      <tr>
+        <td colspan="4">start-flow</td>
+        <td>
+          <a href="../Besturing/Hoofdflow_Flow.html">
+            <span class="flow">Hoofdflow</span>
+          </a>
+        </td>
+        <td>
+          <span>
+            objecttype:
+            <a href="../Gegevens/gegevenmodel_ObjectModel.html#9183417899581669788">Persoon</a>
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">parametersets</td>
+        <td colspan="4">
+          <span class="comment">geen</span>
+        </td>
+      </tr>
+      
+    </table>
+    
+    <b>Naamgeving algemeen</b>
+    <table>
+      <tr>
+        <td colspan="4">projectnaam</td>
+        <td class="extern" colspan="4">adt</td>
+      </tr>
+      <tr>
+        <td colspan="4">componentnaam</td>
+        <td class="extern" colspan="4">invoice</td>
+      </tr>
+    </table>
+    <b>Xml</b>
+    <table>
+      <tr>
+        <td colspan="2">SOAP entrypoint</td>
+        <td class="extern" colspan="4">berekenInvoicepayment</td>
+      </tr>
+      <tr>
+        <td colspan="2">service acronym</td>
+        <td class="extern" colspan="4">rsinvoicepayment</td>
+      </tr>
+      <tr>
+        <td colspan="2">namespace</td>
+        <td class="extern" colspan="4">http://www.belastingdienst.nl/InvoicepaymentBlazeBOM</td>
+      </tr>
+      <tr>
+        <td colspan="2">berichttype</td>
+        <td class="extern" colspan="4">Message</td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td colspan="2">
+          <b>Invoer</b>
+        </td>
+      </tr>
+      <tr>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>type</td>
+        <td class="extern">Request</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>jaar attribuut</td>
+        <td class="extern">belastingjaar</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>velden</td>
+        <td class="veld">berichtIn</td>
+        <td>is van type</td>
+        <td>
+          <a href="InvoicePayment Invoer_InvoerBerichtType.html" class="type">InvoicePayment Invoer</a>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <b>Uitvoer</b>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>type</td>
+        <td class="extern">Response</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>velden</td>
+        <td class="veld">berichtUit</td>
+        <td>is van type</td>
+        <td>
+          <a href="InvoicePayment Uitvoer_UitvoerBerichtType.html" class="type">InvoicePayment Uitvoer</a>
+        </td>
+        
+      </tr>
+    </table>
+    <b>Datatypes</b>
+    <ul style="list-style: none"></ul>
+    <b>Mapping</b>
+    <table></table>
+  </body>
+</html>

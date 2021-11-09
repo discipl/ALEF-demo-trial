@@ -26,6 +26,7 @@
     <language slang="l:8585453e-6bfb-4d80-98de-b16074f1d86c:jetbrains.mps.lang.test" version="5" />
     <language slang="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" version="0" />
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
+    <language slang="l:b2fc4154-1657-4d74-8828-c55b57a96ecd:rapporten" version="0" />
     <language slang="l:7bbaf860-5f96-44b4-9731-6e00ae137ece:regelspraak" version="18" />
     <language slang="l:d8af31be-1847-4d5b-8686-78e232d4e0f8:servicespraak" version="8" />
     <language slang="l:8bc962c0-cb3c-49f0-aa03-23c3bc0304b0:testspraak" version="12" />

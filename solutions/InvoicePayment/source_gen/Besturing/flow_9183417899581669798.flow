@@ -1,0 +1,18 @@
+<?xml version = "1.0"?>
+<ruleflow name="flow_9183417899581669798">
+  <!--gegenereerd o.b.v. de Flow genaamd 'Hoofdflow', in model 'Besturing' in module 'InvoicePayment': http://127.0.0.1:63320/node?ref=r%3A0acc0f7e-b988-4353-aa76-f0bacabc32f2%28Besturing%29%2F9183417899581669798 -->
+  <variable name="persoon" type="Gegevens__9183417899581669788persoon" value="deGegevens__9183417899581669788persoon" />
+  <flow><booleanDecision>
+        <test>true</test>
+        <flow>
+          <task name="Supplier altijd" implementation="ruleset_2513092667722211780" type="ruleset" datatype="void"></task>
+          <task name="Vijfde regel altijd" implementation="ruleset_2513092667722216302" type="ruleset" datatype="void"></task>
+          <task name="Zevende regel altijd" implementation="ruleset_2513092667722234136" type="ruleset" datatype="void"></task>
+          <task name="Zesde regel altijd" implementation="ruleset_2513092667722220997" type="ruleset" datatype="void"></task>
+          <task name="Owner altijd" implementation="ruleset_2513092667722211051" type="ruleset" datatype="void"></task>
+          <task name="Builder altijd" implementation="ruleset_2513092667722211157" type="ruleset" datatype="void"></task>
+          <task name="Architect altijd" implementation="ruleset_2513092667722211347" type="ruleset" datatype="void"></task>
+        </flow>
+      </booleanDecision>
+      </flow>
+</ruleflow>

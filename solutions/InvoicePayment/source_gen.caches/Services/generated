@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <product version="3" modelHash="9l4wf7q22uz86cmgwm70098ltqnaprs">
-  <files names="invoicepayment.properties:invoicepayment____ObjectModel.java:rsinvoicepayment/invoicepayment.xsd:service_2513092667722235752.rb" />
-  <files dir="HTML/Services/" names="Actiebetaling_UitvoerBerichtType.html:Factuur_InvoerBerichtType.html:InvoicePayment Invoer_InvoerBerichtType.html:InvoicePayment Uitvoer_UitvoerBerichtType.html:InvoicePayment_Service.html" />
-  <files dir="HTML/resources/css/" names="besturing.css:main.css:objecten.css:rapportage.css:regels.css:services.css" />
-  <files dir="Services/rsinvoicepayment" names="serviceInfo_invoicepayment.json" />
+  <files names="rsinvoicepayment/invoicepayment.xsd:service_2513092667722235752.rb" />
 </product>
 

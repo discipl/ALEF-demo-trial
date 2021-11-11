@@ -20,7 +20,7 @@ sequential ruleset ruleset_2513092667722211780 is
 }
 .
 // regelgroep : Regelgroep trial
-// regelversie: Vijfde regel altijd
+// regelversie: Volledig_Akkoord altijd
 // alef url   : http://127.0.0.1:63320/node?ref=r%3A47937443-25b0-471f-8204-e2433dba97f0%28Regels%29%2F2513092667722216302
 sequential ruleset ruleset_2513092667722216302 is
 {
@@ -42,7 +42,7 @@ sequential ruleset ruleset_2513092667722216302 is
             }
             else {            
               if (HuidigeHoofdOnderwerpen.contains(eenGegevens__9183417899581682538invoice0)) then {              
-                throw RuntimeException.newInstance("Fout in regel Vijfde regel altijd: Er zijn meerdere instanties van factuur die aan de voorwaarden voldoen");
+                throw RuntimeException.newInstance("Fout in regel Volledig_Akkoord altijd: Er zijn meerdere instanties van factuur die aan de voorwaarden voldoen");
               };
             };
             HuidigeHoofdOnderwerpen.append(eenGegevens__9183417899581682538invoice0);
@@ -54,7 +54,7 @@ sequential ruleset ruleset_2513092667722216302 is
 }
 .
 // regelgroep : Regelgroep trial
-// regelversie: Zevende regel altijd
+// regelversie: Geen_Akkoord_Bedrag altijd
 // alef url   : http://127.0.0.1:63320/node?ref=r%3A47937443-25b0-471f-8204-e2433dba97f0%28Regels%29%2F2513092667722234136
 sequential ruleset ruleset_2513092667722234136 is
 {
@@ -76,7 +76,7 @@ sequential ruleset ruleset_2513092667722234136 is
             }
             else {            
               if (HuidigeHoofdOnderwerpen.contains(eenGegevens__9183417899581682538invoice0)) then {              
-                throw RuntimeException.newInstance("Fout in regel Zevende regel altijd: Er zijn meerdere instanties van factuur die aan de voorwaarden voldoen");
+                throw RuntimeException.newInstance("Fout in regel Geen_Akkoord_Bedrag altijd: Er zijn meerdere instanties van factuur die aan de voorwaarden voldoen");
               };
             };
             HuidigeHoofdOnderwerpen.append(eenGegevens__9183417899581682538invoice0);
@@ -88,7 +88,7 @@ sequential ruleset ruleset_2513092667722234136 is
 }
 .
 // regelgroep : Regelgroep trial
-// regelversie: Zesde regel altijd
+// regelversie: Geen_Akkoord_Rol altijd
 // alef url   : http://127.0.0.1:63320/node?ref=r%3A47937443-25b0-471f-8204-e2433dba97f0%28Regels%29%2F2513092667722220997
 sequential ruleset ruleset_2513092667722220997 is
 {
@@ -109,7 +109,7 @@ sequential ruleset ruleset_2513092667722220997 is
             }
             else {            
               if (HuidigeHoofdOnderwerpen.contains(eenGegevens__9183417899581682538invoice0)) then {              
-                throw RuntimeException.newInstance("Fout in regel Zesde regel altijd: Er zijn meerdere instanties van factuur die aan de voorwaarden voldoen");
+                throw RuntimeException.newInstance("Fout in regel Geen_Akkoord_Rol altijd: Er zijn meerdere instanties van factuur die aan de voorwaarden voldoen");
               };
             };
             HuidigeHoofdOnderwerpen.append(eenGegevens__9183417899581682538invoice0);

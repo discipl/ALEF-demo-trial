@@ -1,11 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependenciesRoot>
-  <dependency className="Services.invoicepayment____ObjectModel">
-    <classNode dependClassName="converter.model.domain.Enumeratie" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.lang.System" />
-    <classNode extendsClassName="converter.impl.AbstractObjectModel" />
-  </dependency>
-</dependenciesRoot>
+<dependenciesRoot />
 

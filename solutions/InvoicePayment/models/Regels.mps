@@ -84,32 +84,8 @@
       <concept id="5917060184181965945" name="gegevensspraak.structure.NumeriekeLiteral" flags="ng" index="1EQTEq" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-      <concept id="3717301156197626279" name="jetbrains.mps.lang.core.structure.BasePlaceholder" flags="ng" index="3DQ70j">
-        <child id="3717301156197626301" name="content" index="3DQ709" />
-      </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
-      </concept>
-    </language>
-    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
-        <property id="155656958578482949" name="value" index="3oM_SC" />
-      </concept>
-      <concept id="2535923850359206929" name="jetbrains.mps.lang.text.structure.Text" flags="nn" index="1Pa9Pv">
-        <child id="2535923850359210936" name="lines" index="1PaQFQ" />
-      </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
-        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="b2fc4154-1657-4d74-8828-c55b57a96ecd" name="rapporten">
@@ -123,183 +99,8 @@
   </registry>
   <node concept="2bQVlO" id="7XM3uM0xS6_">
     <property role="TrG5h" value="Regelgroep trial" />
-    <node concept="1X3_iC" id="2bwj7tzefmp" role="lGtFl">
-      <property role="3V$3am" value="regel" />
-      <property role="3V$3ak" value="7bbaf860-5f96-44b4-9731-6e00ae137ece/653687101158189440/9154144551704439187" />
-      <node concept="1HSql3" id="7XM3uM0xVcK" role="8Wnug">
-        <property role="TrG5h" value="Eerste regel" />
-        <node concept="1wO7pt" id="7XM3uM0xVcL" role="kiesI">
-          <node concept="2boe1W" id="7XM3uM0xVcM" role="1wO7pp">
-            <node concept="2boe1X" id="7XM3uM0xVmS" role="1wO7i6">
-              <node concept="2bokzj" id="7XM3uM0xVmT" role="2bokzF">
-                <ref role="2bpytK" to="atmy:7XM3uM0xVjK" resolve="wijze van uitbetalen" />
-                <node concept="u$H1X" id="7XM3uM0xVPn" role="200mRc">
-                  <ref role="u$H1W" to="atmy:7XM3uM0xVgc" resolve="factuur" />
-                </node>
-                <node concept="u$H1X" id="7XM3uM0xVOW" role="200mRc">
-                  <ref role="u$H1W" to="atmy:2bwj7tze9Rm" resolve="Supplier" />
-                </node>
-              </node>
-              <node concept="16yQLD" id="7XM3uM0xVni" role="2bokzm">
-                <ref role="16yCuT" to="atmy:7XM3uM0xViN" resolve="Volledig betalen" />
-              </node>
-            </node>
-            <node concept="1wSW2G" id="7XM3uM0xVOh" role="1wO7i3">
-              <node concept="1wSIL1" id="7XM3uM0xVOi" role="1wSDsD">
-                <ref role="3zXN3T" node="7XM3uM0xVPn" resolve="factuur" />
-              </node>
-              <node concept="1wXXZB" id="7XM3uM0xVOj" role="1wXJ7m" />
-              <node concept="1wSDer" id="7XM3uM0xVOk" role="1wSW2F">
-                <node concept="1wWOLE" id="7XM3uM0xV$G" role="1wSDeq">
-                  <property role="2noU44" value="5brrC35IcXw/LE" />
-                  <node concept="2boeyy" id="7XM3uM0xV$H" role="2C6MT$">
-                    <ref role="2boeyz" to="atmy:7XM3uM0xVdV" resolve="factuurbedrag" />
-                    <ref role="3yjWxU" node="7XM3uM0xVPn" resolve="factuur" />
-                  </node>
-                  <node concept="1EQTEq" id="7XM3uM0xVMT" role="1wWOLA">
-                    <property role="3e6Tb2" value="200" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2ljwA5" id="7XM3uM0xVcO" role="1nvPAL" />
-        </node>
-      </node>
-    </node>
-    <node concept="1X3_iC" id="2bwj7tzef9Y" role="lGtFl">
-      <property role="3V$3am" value="regel" />
-      <property role="3V$3ak" value="7bbaf860-5f96-44b4-9731-6e00ae137ece/653687101158189440/9154144551704439187" />
-      <node concept="1HSql3" id="2bwj7tzeaDw" role="8Wnug">
-        <property role="TrG5h" value="Tweede regel" />
-        <node concept="1wO7pt" id="2bwj7tzeaDx" role="kiesI">
-          <node concept="2boe1W" id="2bwj7tzeaDy" role="1wO7pp">
-            <node concept="2boe1X" id="2bwj7tzeaDz" role="1wO7i6">
-              <node concept="2bokzj" id="2bwj7tzeaD$" role="2bokzF">
-                <ref role="2bpytK" to="atmy:7XM3uM0xVjK" resolve="wijze van uitbetalen" />
-                <node concept="u$H1X" id="2bwj7tzeaD_" role="200mRc">
-                  <ref role="u$H1W" to="atmy:7XM3uM0xVgc" resolve="factuur" />
-                </node>
-                <node concept="u$H1X" id="2bwj7tzeaDA" role="200mRc">
-                  <ref role="u$H1W" to="atmy:2bwj7tze9Tl" resolve="Architect" />
-                </node>
-              </node>
-              <node concept="16yQLD" id="2bwj7tzeaDB" role="2bokzm">
-                <ref role="16yCuT" to="atmy:7XM3uM0xVhw" resolve="Niet uit te betalen factuur" />
-              </node>
-            </node>
-          </node>
-          <node concept="2ljwA5" id="2bwj7tzeaDJ" role="1nvPAL" />
-        </node>
-      </node>
-    </node>
-    <node concept="1X3_iC" id="2bwj7tzed9j" role="lGtFl">
-      <property role="3V$3am" value="regel" />
-      <property role="3V$3ak" value="7bbaf860-5f96-44b4-9731-6e00ae137ece/653687101158189440/9154144551704439187" />
-      <node concept="3DQ70j" id="2bwj7tzedrk" role="lGtFl">
-        <property role="3V$3am" value="commentedNode" />
-        <property role="3V$3ak" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/4452961908202556907/3078666699043039389" />
-        <node concept="1Pa9Pv" id="2bwj7tzedrl" role="3DQ709">
-          <node concept="1PaTwC" id="2bwj7tzedrm" role="1PaQFQ">
-            <node concept="3oM_SD" id="2bwj7tzedrn" role="1PaTwD">
-              <property role="3oM_SC" value="Dit" />
-            </node>
-            <node concept="3oM_SD" id="2bwj7tzedrE" role="1PaTwD">
-              <property role="3oM_SC" value="is" />
-            </node>
-            <node concept="3oM_SD" id="2bwj7tzedrH" role="1PaTwD">
-              <property role="3oM_SC" value="uitgecommentarieerd" />
-            </node>
-            <node concept="3oM_SD" id="2bwj7tzedrL" role="1PaTwD">
-              <property role="3oM_SC" value="omdat" />
-            </node>
-            <node concept="3oM_SD" id="2bwj7tzedrQ" role="1PaTwD">
-              <property role="3oM_SC" value="de" />
-            </node>
-            <node concept="3oM_SD" id="2bwj7tzedrW" role="1PaTwD">
-              <property role="3oM_SC" value="regel" />
-            </node>
-            <node concept="3oM_SD" id="2bwj7tzeds3" role="1PaTwD">
-              <property role="3oM_SC" value="in" />
-            </node>
-            <node concept="3oM_SD" id="2bwj7tzedsb" role="1PaTwD">
-              <property role="3oM_SC" value="test" />
-            </node>
-            <node concept="3oM_SD" id="2bwj7tzedsk" role="1PaTwD">
-              <property role="3oM_SC" value="wordt" />
-            </node>
-            <node concept="3oM_SD" id="2bwj7tzedsu" role="1PaTwD">
-              <property role="3oM_SC" value="uitgevoerd" />
-            </node>
-            <node concept="3oM_SD" id="2bwj7tzedsD" role="1PaTwD">
-              <property role="3oM_SC" value="waar" />
-            </node>
-            <node concept="3oM_SD" id="2bwj7tzedsP" role="1PaTwD">
-              <property role="3oM_SC" value="regel" />
-            </node>
-            <node concept="3oM_SD" id="2bwj7tzedt2" role="1PaTwD">
-              <property role="3oM_SC" value="6" />
-            </node>
-            <node concept="3oM_SD" id="2bwj7tzedtg" role="1PaTwD">
-              <property role="3oM_SC" value="bedoeld" />
-            </node>
-            <node concept="3oM_SD" id="2bwj7tzedtv" role="1PaTwD">
-              <property role="3oM_SC" value="is" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1HSql3" id="2bwj7tzeaQm" role="8Wnug">
-        <property role="TrG5h" value="Derde regel" />
-        <node concept="1wO7pt" id="2bwj7tzeaQn" role="kiesI">
-          <node concept="2boe1W" id="2bwj7tzeaQo" role="1wO7pp">
-            <node concept="2boe1X" id="2bwj7tzeaQp" role="1wO7i6">
-              <node concept="2bokzj" id="2bwj7tzeaQq" role="2bokzF">
-                <ref role="2bpytK" to="atmy:7XM3uM0xVjK" resolve="wijze van uitbetalen" />
-                <node concept="u$H1X" id="2bwj7tzeaQr" role="200mRc">
-                  <ref role="u$H1W" to="atmy:7XM3uM0xVgc" resolve="factuur" />
-                </node>
-                <node concept="u$H1X" id="2bwj7tzeaQs" role="200mRc">
-                  <ref role="u$H1W" to="atmy:2bwj7tze9Q1" resolve="Builder" />
-                </node>
-              </node>
-              <node concept="16yQLD" id="2bwj7tzeaQt" role="2bokzm">
-                <ref role="16yCuT" to="atmy:7XM3uM0xVhw" resolve="Niet uit te betalen factuur" />
-              </node>
-            </node>
-          </node>
-          <node concept="2ljwA5" id="2bwj7tzeaQu" role="1nvPAL" />
-        </node>
-      </node>
-    </node>
-    <node concept="1X3_iC" id="2bwj7tzef5q" role="lGtFl">
-      <property role="3V$3am" value="regel" />
-      <property role="3V$3ak" value="7bbaf860-5f96-44b4-9731-6e00ae137ece/653687101158189440/9154144551704439187" />
-      <node concept="1HSql3" id="2bwj7tzeb0j" role="8Wnug">
-        <property role="TrG5h" value="Vierde regel" />
-        <node concept="1wO7pt" id="2bwj7tzeb0k" role="kiesI">
-          <node concept="2boe1W" id="2bwj7tzeb0l" role="1wO7pp">
-            <node concept="2boe1X" id="2bwj7tzeb0m" role="1wO7i6">
-              <node concept="2bokzj" id="2bwj7tzeb0n" role="2bokzF">
-                <ref role="2bpytK" to="atmy:7XM3uM0xVjK" resolve="wijze van uitbetalen" />
-                <node concept="u$H1X" id="2bwj7tzeb0o" role="200mRc">
-                  <ref role="u$H1W" to="atmy:7XM3uM0xVgc" resolve="factuur" />
-                </node>
-                <node concept="u$H1X" id="2bwj7tzeb0p" role="200mRc">
-                  <ref role="u$H1W" to="atmy:2bwj7tze9Mk" resolve="Owner" />
-                </node>
-              </node>
-              <node concept="16yQLD" id="2bwj7tzeb0q" role="2bokzm">
-                <ref role="16yCuT" to="atmy:7XM3uM0xVhw" resolve="Niet uit te betalen factuur" />
-              </node>
-            </node>
-          </node>
-          <node concept="2ljwA5" id="2bwj7tzeb0r" role="1nvPAL" />
-        </node>
-      </node>
-    </node>
     <node concept="1HSql3" id="2bwj7tzebdG" role="1HSqhF">
-      <property role="TrG5h" value="Vijfde regel" />
+      <property role="TrG5h" value="Volledig_Akkoord" />
       <node concept="1wO7pt" id="2bwj7tzebdI" role="kiesI">
         <node concept="2boe1W" id="2bwj7tzebdJ" role="1wO7pp">
           <node concept="2boe1X" id="2bwj7tzebnY" role="1wO7i6">
@@ -346,7 +147,7 @@
       </node>
     </node>
     <node concept="1HSql3" id="2bwj7tzef$n" role="1HSqhF">
-      <property role="TrG5h" value="Zevende regel" />
+      <property role="TrG5h" value="Geen_Akkoord_Bedrag" />
       <node concept="1wO7pt" id="2bwj7tzef$o" role="kiesI">
         <node concept="2boe1W" id="2bwj7tzef$p" role="1wO7pp">
           <node concept="2boe1X" id="2bwj7tzef$q" role="1wO7i6">
@@ -392,64 +193,8 @@
         <node concept="2ljwA5" id="2bwj7tzef$D" role="1nvPAL" />
       </node>
     </node>
-    <node concept="3DQ70j" id="2bwj7tzecFR" role="lGtFl">
-      <property role="3V$3am" value="regel" />
-      <property role="3V$3ak" value="7bbaf860-5f96-44b4-9731-6e00ae137ece/653687101158189440/9154144551704439187" />
-      <node concept="1Pa9Pv" id="2bwj7tzecFS" role="3DQ709">
-        <node concept="1PaTwC" id="2bwj7tzecFT" role="1PaQFQ">
-          <node concept="3oM_SD" id="2bwj7tzecFU" role="1PaTwD">
-            <property role="3oM_SC" value="Dit" />
-          </node>
-          <node concept="3oM_SD" id="2bwj7tzecKM" role="1PaTwD">
-            <property role="3oM_SC" value="is" />
-          </node>
-          <node concept="3oM_SD" id="2bwj7tzecKP" role="1PaTwD">
-            <property role="3oM_SC" value="een" />
-          </node>
-          <node concept="3oM_SD" id="2bwj7tzecKT" role="1PaTwD">
-            <property role="3oM_SC" value="poging" />
-          </node>
-          <node concept="3oM_SD" id="2bwj7tzecKY" role="1PaTwD">
-            <property role="3oM_SC" value="om" />
-          </node>
-          <node concept="3oM_SD" id="2bwj7tzecL4" role="1PaTwD">
-            <property role="3oM_SC" value="regel" />
-          </node>
-          <node concept="3oM_SD" id="2bwj7tzecLb" role="1PaTwD">
-            <property role="3oM_SC" value="2," />
-          </node>
-          <node concept="3oM_SD" id="2bwj7tzecLj" role="1PaTwD">
-            <property role="3oM_SC" value="3" />
-          </node>
-          <node concept="3oM_SD" id="2bwj7tzecLs" role="1PaTwD">
-            <property role="3oM_SC" value="en" />
-          </node>
-          <node concept="3oM_SD" id="2bwj7tzecLA" role="1PaTwD">
-            <property role="3oM_SC" value="4" />
-          </node>
-          <node concept="3oM_SD" id="2bwj7tzecLL" role="1PaTwD">
-            <property role="3oM_SC" value="samen" />
-          </node>
-          <node concept="3oM_SD" id="2bwj7tzecLX" role="1PaTwD">
-            <property role="3oM_SC" value="te" />
-          </node>
-          <node concept="3oM_SD" id="2bwj7tzecMa" role="1PaTwD">
-            <property role="3oM_SC" value="vatten" />
-          </node>
-          <node concept="3oM_SD" id="2bwj7tzecMo" role="1PaTwD">
-            <property role="3oM_SC" value="in" />
-          </node>
-          <node concept="3oM_SD" id="2bwj7tzecMB" role="1PaTwD">
-            <property role="3oM_SC" value="1" />
-          </node>
-          <node concept="3oM_SD" id="2bwj7tzecMR" role="1PaTwD">
-            <property role="3oM_SC" value="regel" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="1HSql3" id="2bwj7tzecn4" role="1HSqhF">
-      <property role="TrG5h" value="Zesde regel" />
+      <property role="TrG5h" value="Geen_Akkoord_Rol" />
       <node concept="1wO7pt" id="2bwj7tzecn5" role="kiesI">
         <node concept="2boe1W" id="2bwj7tzecn6" role="1wO7pp">
           <node concept="2boe1X" id="2bwj7tzecn7" role="1wO7i6">

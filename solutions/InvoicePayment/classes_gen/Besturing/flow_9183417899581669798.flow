@@ -6,9 +6,9 @@
         <test>true</test>
         <flow>
           <task name="Supplier altijd" implementation="ruleset_2513092667722211780" type="ruleset" datatype="void"></task>
-          <task name="Vijfde regel altijd" implementation="ruleset_2513092667722216302" type="ruleset" datatype="void"></task>
-          <task name="Zevende regel altijd" implementation="ruleset_2513092667722234136" type="ruleset" datatype="void"></task>
-          <task name="Zesde regel altijd" implementation="ruleset_2513092667722220997" type="ruleset" datatype="void"></task>
+          <task name="Volledig_Akkoord altijd" implementation="ruleset_2513092667722216302" type="ruleset" datatype="void"></task>
+          <task name="Geen_Akkoord_Bedrag altijd" implementation="ruleset_2513092667722234136" type="ruleset" datatype="void"></task>
+          <task name="Geen_Akkoord_Rol altijd" implementation="ruleset_2513092667722220997" type="ruleset" datatype="void"></task>
           <task name="Owner altijd" implementation="ruleset_2513092667722211051" type="ruleset" datatype="void"></task>
           <task name="Builder altijd" implementation="ruleset_2513092667722211157" type="ruleset" datatype="void"></task>
           <task name="Architect altijd" implementation="ruleset_2513092667722211347" type="ruleset" datatype="void"></task>

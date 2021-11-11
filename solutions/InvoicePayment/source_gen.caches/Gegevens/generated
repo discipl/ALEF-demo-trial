@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <product version="3" modelHash="-8kyh8hzdzxjtlm32tgdwueve32z2yzt">
-  <files names="objectModel_9183417899581669785.rb" />
   <files dir="HTML/Gegevens/" names="gegevenmodel_ObjectModel.html" />
   <files dir="HTML/resources/css/" names="besturing.css:main.css:objecten.css:rapportage.css:regels.css:services.css" />
 </product>

@@ -117,11 +117,11 @@ function testService__invoicepayment
 is {
   TestProvider.init("", -1, -1, "Architect altijd");
   TestProvider.init("", -1, -1, "Builder altijd");
+  TestProvider.init("", -1, -1, "Geen_Akkoord_Bedrag altijd");
+  TestProvider.init("", -1, -1, "Geen_Akkoord_Rol altijd");
   TestProvider.init("", -1, -1, "Owner altijd");
   TestProvider.init("", -1, -1, "Supplier altijd");
-  TestProvider.init("", -1, -1, "Vijfde regel altijd");
-  TestProvider.init("", -1, -1, "Zesde regel altijd");
-  TestProvider.init("", -1, -1, "Zevende regel altijd");
+  TestProvider.init("", -1, -1, "Volledig_Akkoord altijd");
   while TestProvider.hasNext() do {  
     testOnce_testService__invoicepayment();
     // reset objects;

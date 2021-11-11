@@ -279,7 +279,7 @@
                     <property role="2pNUuO" value="name" />
                     <uo k="s:originTrace" v="n:9183417899581669798" />
                     <node concept="2pMdtt" id="V" role="2pMdts">
-                      <property role="2pMdty" value="Vijfde regel altijd" />
+                      <property role="2pMdty" value="Volledig_Akkoord altijd" />
                       <uo k="s:originTrace" v="n:9183417899581669798" />
                     </node>
                   </node>
@@ -315,7 +315,7 @@
                     <property role="2pNUuO" value="name" />
                     <uo k="s:originTrace" v="n:9183417899581669798" />
                     <node concept="2pMdtt" id="13" role="2pMdts">
-                      <property role="2pMdty" value="Zevende regel altijd" />
+                      <property role="2pMdty" value="Geen_Akkoord_Bedrag altijd" />
                       <uo k="s:originTrace" v="n:9183417899581669798" />
                     </node>
                   </node>
@@ -351,7 +351,7 @@
                     <property role="2pNUuO" value="name" />
                     <uo k="s:originTrace" v="n:9183417899581669798" />
                     <node concept="2pMdtt" id="1b" role="2pMdts">
-                      <property role="2pMdty" value="Zesde regel altijd" />
+                      <property role="2pMdty" value="Geen_Akkoord_Rol altijd" />
                       <uo k="s:originTrace" v="n:9183417899581669798" />
                     </node>
                   </node>

@@ -1,0 +1,32 @@
+# -----------------------------------------------------------
+# general:
+.DS_Store
+workspace.xml
+junitvmwatcher*.properties
+TEST-*.xml
+junit*.properties
+*.history
+
+# -----------------------------------------------------------
+# MPS:
+/**/classes_gen/
+/**/source_gen/
+/**/source_gen.caches/
+/**/test_gen/
+/**/test_gen.caches/
+/**/generated/
+/**/trace.info
+/.mps/shelf/
+
+# -----------------------------------------------------------
+# temp files:
+/**/~*
+/**/*.swp
+
+# -----------------------------------------------------------
+# specials:
+/build/
+#/build.xml
+/build.properties
+
+# -----------------------------------------------------------

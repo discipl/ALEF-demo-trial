@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:59bda74b-4f40-40aa-bb97-2bc3c8589e12(Services)/2513092667722235752">
+    <file name="rsinvoicepayment/invoicepayment.xsd">
+      <unit id="2513092667722235752" at="1,0,84,13" name="Services.invoicepayment" />
+    </file>
+  </root>
+</debug-info>
+

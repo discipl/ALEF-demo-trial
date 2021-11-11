@@ -1,0 +1,54 @@
+{
+  "models": [
+    {
+      "model": "Besturing",
+      "module": "InvoicePayment",
+      "moduleDir": "/home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment",
+      "modelGenDir": "/home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment/source_gen/Besturing"
+    },
+    {
+      "model": "Gegevens",
+      "module": "InvoicePayment",
+      "moduleDir": "/home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment",
+      "modelGenDir": "/home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment/source_gen/Gegevens"
+    },
+    {
+      "model": "Regels",
+      "module": "InvoicePayment",
+      "moduleDir": "/home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment",
+      "modelGenDir": "/home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment/source_gen/Regels"
+    },
+    {
+      "model": "Services",
+      "module": "InvoicePayment",
+      "moduleDir": "/home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment",
+      "modelGenDir": "/home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePayment/source_gen/Services"
+    },
+    {
+      "model": "regeltests",
+      "module": "InvoicePaymentTest",
+      "moduleDir": "/home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePaymentTest",
+      "modelGenDir": "/home/steven/AlefProjects/ALEF-demo-trial/solutions/InvoicePaymentTest/source_gen/regeltests",
+      "regelgroepTestBlazeFunctions": [
+        {
+          "test": "001",
+          "detail": "2021-07-01",
+          "set": "test trial",
+          "method": "test_9183417899581685370_20210701"
+        },
+        {
+          "test": "003",
+          "detail": "2021-07-01",
+          "set": "test trial",
+          "method": "test_2513092667722227955_20210701"
+        },
+        {
+          "test": "002",
+          "detail": "2021-07-01",
+          "set": "test trial",
+          "method": "test_2513092667722213375_20210701"
+        }
+      ]
+    }
+  ]
+}

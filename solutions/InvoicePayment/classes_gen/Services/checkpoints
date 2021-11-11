@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoints>
+  <plan id="alef plan">
+    <checkpoint id="objectmodel" file="alef_plan-objectmodel.mps" />
+  </plan>
+</checkpoints>
+

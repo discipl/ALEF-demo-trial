@@ -98,7 +98,7 @@
         <property role="TrG5h" value="steven" />
         <ref role="4OhPH" to="atmy:7XM3uM0xS6s" resolve="Persoon" />
         <node concept="3_ceKt" id="7XM3uM0xVW7" role="4OhPJ">
-          <ref role="3_ceKs" to="atmy:7XM3uM0xVd6" resolve="supplier" />
+          <ref role="3_ceKs" to="atmy:2bwj7tze9Rm" resolve="Supplier" />
           <node concept="2Jx4MH" id="7XM3uM0xVWl" role="3_ceKu">
             <property role="2Jx4MO" value="true" />
           </node>
@@ -130,6 +130,138 @@
           <ref role="10Xmnc" to="atmy:7XM3uM0xVjK" resolve="wijze van uitbetalen" />
           <node concept="16yQLD" id="7XM3uM0xVZG" role="3mzBi6">
             <ref role="16yCuT" to="atmy:7XM3uM0xViN" resolve="Volledig betalen" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="210ffa" id="2bwj7tzee3N" role="10_$IM">
+      <property role="TrG5h" value="003" />
+      <node concept="4OhPC" id="2bwj7tzee3O" role="4Ohaa">
+        <property role="TrG5h" value="steven" />
+        <ref role="4OhPH" to="atmy:7XM3uM0xS6s" resolve="Persoon" />
+        <node concept="3_ceKt" id="2bwj7tzee3P" role="4OhPJ">
+          <ref role="3_ceKs" to="atmy:2bwj7tze9Rm" resolve="Supplier" />
+          <node concept="2Jx4MH" id="2bwj7tzee3Q" role="3_ceKu">
+            <property role="2Jx4MO" value="true" />
+          </node>
+        </node>
+        <node concept="3_ceKt" id="2bwj7tzee3R" role="4OhPJ">
+          <ref role="3_ceKs" to="atmy:7XM3uM0xVgc" resolve="factuur" />
+          <node concept="4PMua" id="2bwj7tzee3S" role="3_ceKu">
+            <node concept="4PMub" id="2bwj7tzee3T" role="4PMue">
+              <ref role="4PMuN" node="2bwj7tzee3U" resolve="a" />
+            </node>
+            <node concept="4PMub" id="2bwj7tzeeei" role="4PMue">
+              <ref role="4PMuN" node="2bwj7tzee8X" resolve="b" />
+            </node>
+            <node concept="4PMub" id="2bwj7tzeefk" role="4PMue">
+              <ref role="4PMuN" node="2bwj7tzeeae" resolve="c" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="4OhPC" id="2bwj7tzee3U" role="4Ohaa">
+        <property role="TrG5h" value="a" />
+        <ref role="4OhPH" to="atmy:7XM3uM0xVdE" resolve="Invoice" />
+        <node concept="3_ceKt" id="2bwj7tzee3V" role="4OhPJ">
+          <ref role="3_ceKs" to="atmy:7XM3uM0xVdV" resolve="factuurbedrag" />
+          <node concept="1EQTEq" id="2bwj7tzee3W" role="3_ceKu">
+            <property role="3e6Tb2" value="280" />
+          </node>
+        </node>
+      </node>
+      <node concept="4OhPC" id="2bwj7tzee8X" role="4Ohaa">
+        <property role="TrG5h" value="b" />
+        <ref role="4OhPH" to="atmy:7XM3uM0xVdE" resolve="Invoice" />
+        <node concept="3_ceKt" id="2bwj7tzee8Y" role="4OhPJ">
+          <ref role="3_ceKs" to="atmy:7XM3uM0xVdV" resolve="factuurbedrag" />
+          <node concept="1EQTEq" id="2bwj7tzee8Z" role="3_ceKu">
+            <property role="3e6Tb2" value="10" />
+          </node>
+        </node>
+      </node>
+      <node concept="4OhPC" id="2bwj7tzeeae" role="4Ohaa">
+        <property role="TrG5h" value="c" />
+        <ref role="4OhPH" to="atmy:7XM3uM0xVdE" resolve="Invoice" />
+        <node concept="3_ceKt" id="2bwj7tzeeaf" role="4OhPJ">
+          <ref role="3_ceKs" to="atmy:7XM3uM0xVdV" resolve="factuurbedrag" />
+          <node concept="1EQTEq" id="2bwj7tzeeag" role="3_ceKu">
+            <property role="3e6Tb2" value="80" />
+          </node>
+        </node>
+      </node>
+      <node concept="4Oh8J" id="2bwj7tzee3X" role="4Ohb1">
+        <ref role="3teO_M" node="2bwj7tzee3U" resolve="a" />
+        <ref role="4Oh8G" to="atmy:7XM3uM0xVdE" resolve="Invoice" />
+        <node concept="3mzBic" id="2bwj7tzee3Y" role="4Ohbj">
+          <property role="V2jGk" value="-1" />
+          <ref role="10Xmnc" to="atmy:7XM3uM0xVjK" resolve="wijze van uitbetalen" />
+          <node concept="16yQLD" id="2bwj7tzee3Z" role="3mzBi6">
+            <ref role="16yCuT" to="atmy:7XM3uM0xVhw" resolve="Niet uit te betalen factuur" />
+          </node>
+        </node>
+      </node>
+      <node concept="4Oh8J" id="2bwj7tzee$0" role="4Ohb1">
+        <ref role="3teO_M" node="2bwj7tzee8X" resolve="b" />
+        <ref role="4Oh8G" to="atmy:7XM3uM0xVdE" resolve="Invoice" />
+        <node concept="3mzBic" id="2bwj7tzee$1" role="4Ohbj">
+          <property role="V2jGk" value="-1" />
+          <ref role="10Xmnc" to="atmy:7XM3uM0xVjK" resolve="wijze van uitbetalen" />
+          <node concept="16yQLD" id="2bwj7tzee$2" role="3mzBi6">
+            <ref role="16yCuT" to="atmy:7XM3uM0xViN" resolve="Volledig betalen" />
+          </node>
+        </node>
+      </node>
+      <node concept="4Oh8J" id="2bwj7tzeeBe" role="4Ohb1">
+        <ref role="3teO_M" node="2bwj7tzeeae" resolve="c" />
+        <ref role="4Oh8G" to="atmy:7XM3uM0xVdE" resolve="Invoice" />
+        <node concept="3mzBic" id="2bwj7tzeeBf" role="4Ohbj">
+          <property role="V2jGk" value="-1" />
+          <ref role="10Xmnc" to="atmy:7XM3uM0xVjK" resolve="wijze van uitbetalen" />
+          <node concept="16yQLD" id="2bwj7tzeeBg" role="3mzBi6">
+            <ref role="16yCuT" to="atmy:7XM3uM0xViN" resolve="Volledig betalen" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="210ffa" id="2bwj7tzeavZ" role="10_$IM">
+      <property role="TrG5h" value="002" />
+      <node concept="4OhPC" id="2bwj7tzeaw0" role="4Ohaa">
+        <property role="TrG5h" value="steven" />
+        <ref role="4OhPH" to="atmy:7XM3uM0xS6s" resolve="Persoon" />
+        <node concept="3_ceKt" id="2bwj7tzeaw1" role="4OhPJ">
+          <ref role="3_ceKs" to="atmy:2bwj7tze9Q1" resolve="Builder" />
+          <node concept="2Jx4MH" id="2bwj7tzeaw2" role="3_ceKu">
+            <property role="2Jx4MO" value="true" />
+          </node>
+        </node>
+        <node concept="3_ceKt" id="2bwj7tzeaw3" role="4OhPJ">
+          <ref role="3_ceKs" to="atmy:7XM3uM0xVgc" resolve="factuur" />
+          <node concept="4PMua" id="2bwj7tzeaw4" role="3_ceKu">
+            <node concept="4PMub" id="2bwj7tzeaw5" role="4PMue">
+              <ref role="4PMuN" node="2bwj7tzeaw6" resolve="a" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="4OhPC" id="2bwj7tzeaw6" role="4Ohaa">
+        <property role="TrG5h" value="a" />
+        <ref role="4OhPH" to="atmy:7XM3uM0xVdE" resolve="Invoice" />
+        <node concept="3_ceKt" id="2bwj7tzeaw7" role="4OhPJ">
+          <ref role="3_ceKs" to="atmy:7XM3uM0xVdV" resolve="factuurbedrag" />
+          <node concept="1EQTEq" id="2bwj7tzeaw8" role="3_ceKu">
+            <property role="3e6Tb2" value="180" />
+          </node>
+        </node>
+      </node>
+      <node concept="4Oh8J" id="2bwj7tzeaw9" role="4Ohb1">
+        <ref role="3teO_M" node="2bwj7tzeaw6" resolve="a" />
+        <ref role="4Oh8G" to="atmy:7XM3uM0xVdE" resolve="Invoice" />
+        <node concept="3mzBic" id="2bwj7tzeawa" role="4Ohbj">
+          <property role="V2jGk" value="-1" />
+          <ref role="10Xmnc" to="atmy:7XM3uM0xVjK" resolve="wijze van uitbetalen" />
+          <node concept="16yQLD" id="2bwj7tzeawb" role="3mzBi6">
+            <ref role="16yCuT" to="atmy:7XM3uM0xVhw" resolve="Niet uit te betalen factuur" />
           </node>
         </node>
       </node>

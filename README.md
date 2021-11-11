@@ -15,7 +15,9 @@ The challenge is to realize a complete ALEF service for this very simple invoice
 A person submits an invoice for payment. The invoice must not exceed €200 and the person's position must be 'Supplier'. The result of the payment can be:
 1. Reject
 2. Pay in full
-3. Pay in 3 equal parts over a 3 month period (optional)
+3. Pay in 3 equal parts over a 3 month period
+
+If the amount is less than €100, full payout is possible. For the amounts between €100 and €200 we use the equal division in 3 installments. Optionally, it is an idea to round the payment in installments for the first two installments to whole euros.
 
 The functions we recognize are:
 - Owner
@@ -25,10 +27,51 @@ The functions we recognize are:
 
 ## Progress
 
-Initial ALEF project created and first start made by ![Diederik Dulfer](https://github.com/diederikd), including a test case
+Nov 11th 2021: Further elaborated with the help of Eric Bokhove. Note that the third option of the use case - pay in 3 equal parts - has not been specified in the elaboration thus far.  
 
-### Gegevensmodel
+Oct 29th 2021: Initial ALEF project created and first start made by ![Diederik Dulfer](https://github.com/diederikd), including a test case
+
+We use the Dutch terms for convenience because they correspond to the screenshots of the ALEF editor.
+
+### GEGEVENS
+We start by specifying the data model.  
+
 ![Gegevensmodel](images/Gegevensmodel.png)
 
-### Test case
-![Test case](images/testtrial.png)
+### REGELS
+We then draw up the rules, whereby we first summarize the characteristics of the person in lines for the sake of readability.  
+
+![Kenmerken persoon](images/Kenmerkenpersoon.png)
+
+Now we use those attributes in the actual rules.  
+
+![Regelgroep trial](images/Regelgroeptrial.png)
+
+### TEST
+With the data model and the rules we can create test cases with which we can test the implementation of the rules against the use case requirements.  
+
+![Test trial](images/testtrial.png)
+
+### SERVICES
+With successful test cases, we now also want to specify the service with which we can execute the rules. For this we need to create a service with an input and output message.  
+
+![Invoice payment](images/Invoicepayment.png)
+
+### SERVICES - HOOFDLOW
+But before we create the input and output messages, we must first determine the main flow, specifying the rules to be executed.  
+
+![Hoofdflow](images/Hoofdflow.png)
+
+### SERVICES - INVOERBERICHT
+The input message contains the information to be tested about the person and the invoice. Note that this input message itself needs an InputMessageType (Services) that we also need to specify! In our case, that is the input message type **Factuur**.  
+
+![Invoer bericht](images/Invoerbericht.png)
+
+![Invoer bericht Factuur](images/InvoerberichtFactuur.png)
+
+### SERVICES - UITVOERBERICHT
+The output message contains the outcome of the verified input about the person and the invoice. Note that as with the input message, this output message itself again needs an OutputMessageType (Services) that we also need to specify! In our case, that is the output message type **Actiebetaling**.  
+
+![Uitvoer bericht](images/Uitvoerbericht.png)
+
+![Uitvoer bericht Actiebetaling](images/UitvoerberichtActiebetaling.png)
